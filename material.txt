@@ -1,0 +1,210 @@
+# Minicurso de MArkdown - Títulos e Hierarquia
+
+- Headers (H1 a H6)
+- Boas práticas de estruturação
+- Diferenças entre "#", "-" e "="
+
+## Headers (H1 a H6)
+
+Os headers em Markdown são utilizados para definir a hierarquia de títulos em  um documento. Eles vão de H1 a H6, sendo H1 o título mais importante e H6 o menos importantes. Abaixo estão alguns exemplos de como criar headers em Markdown:
+
+```markdown
+# Esse é um título H1
+## Esse é um título H2
+### Esse é um título H3
+#### Esse é um título H4
+##### Esse é um título H5
+###### Esse é um título H6
+```
+
+## Exemplos
+
+# Título H1
+## Título H2
+### Título H3
+#### Título H4
+##### Título H5
+###### Título H6
+
+- Use apenas um H1 por documento para o Título principal 
+- Utilize H2 para seções principais e H3 para subseções.
+- Mantenha a hierarquia lógica para facilitar a leitura e navegação
+- Evite pular níveis de heades  (por exemplo, não vá direto de H1 para H3).
+
+## Diferenças entre "#", "-" e "="
+
+Em markdown, existem diferentes maneiras de criar títulos, e cada uma tem suas particularidades:
+
+- O símbolo "#" é usado para criar headers de H1 a H6, conforme mostrado acima.
+
+- O símbolo "=" é usado para criar um título H1 quando colocado abaixo do texto:
+```markdownTítulo H1
+=========
+```
+- O símbolo "-" é usado para criar um título H2 quando colocado abaixo do texto:
+```markdownTítulo H2
+----
+```
+
+Título 1
+======
+
+Título 2
+-------
+
+
+
+--------------------------------------------------------------
+
+
+# Minicurso de Markdown - formatação de Texto 
+
+- Negrito, itálico e riscado
+- combinações de formatação
+- Código inline
+- Quebras de linha e parágrafos
+
+## Negrito, Itálico e Riscado 
+
+```markdown
+**Texto em negrito**
+
+*texto em ítalico*
+
+~~Texto riscado~~
+
+```
+### Resultado:
+
+**Texto em Negrito**
+
+*Texto em ítalico*
+
+~~Texto riscado~~
+
+## Combinações de Formatação
+
+```markdown
+**texto em negrito e *ítalico***
+```
+
+## Código Inline
+
+### Java Script
+```javascript
+const mensagem = "Olá, Mundo!";
+console.log ('mensagem: ${Mesagem}');
+```
+### GO
+```go
+package main
+
+import "fmt"
+
+func main() {
+    mensagem := "Olá, Mundo!"
+    fmt.Prinln ("Mensagem:"), mensagem
+}
+```
+### sh
+```sh
+watch date 
+```
+
+## Quebra de linha e Parágrafos
+
+```Markdown
+Este é um parágrafo.
+
+Este é outro parágrafo.
+```
+
+### Exemplo com Quebras de Linha:
+Esse é um exemplo de linha com
+quebra de linha dupla.
+Esse é outro exemplo de linha com 
+quebra de linha.
+
+### Exemplo sem quebra de linhas:
+Esse é exemplo de linha sem quebra de linha. Esse é outro exemplo de linha sem quebra de linha
+
+### Exemplo de parágrafo
+Este é o primeiro parágrafo.
+
+Este é o segundo parágrafo.
+
+Este é o terceiro parágrafo.
+
+-------------------------------------------------------------------
+## Lista Ordenadas e Não ordenadas
+
+As listas ordenadas e não ordenadas são usadas para organizar informações de forma clara e consisa. Aqui estão as principais diferenças entre elas:
+
+- Listas ordenadas (numeradas) são usadas quando a ordem dos itens é importante. Exemplo 
+
+1. Primeiro item 
+2. Segundo item 
+3. Terceiro item 
+
+- Listas não ordenadas (com marcadores) são usadas quando a ordem dos intens não é importante. Exemplo:
+
+- Item A
+- Item B
+- Item C
+
+## Listas Aninhadas
+
+Listas aninhadas são listas dentro de outras listas. Elas podem ser usadas para criar subcategorias ou detalhar itens. Exemplos 
+
+- Frutas
+  - Maçã
+  - Banana
+  - Laranja
+
+- Vegetais
+  - Cenouras
+  - Alface
+  - Tomate
+
+  ## Listas Aninhadas Numericamente
+     Listas aninhadas também podem ser númeradas. Exemplo
+
+ 1. Tópico 1
+    1. Subtópico 1.1
+    2. subtópico 1.2
+ 2. Tópico 2
+    1. Subtópico 2.1
+    2. Subtópico 2.2
+
+## Lista de Tarefas (check box)
+
+Listas de tarefas são usadas para acompanhar o progresso das atividades. Elas podem ser criadas usando colchetes. Exemplo 
+
+- [x] Tarefa 1 concluída
+- [] Tarefa 2 pendente
+- [] Tarefa 3 pendente
+
+--------------------------------------------------------------------
+
+# Minicurso de MArkdown - Links e Referências
+
+- Links simples e com textos personalizados
+- links de referência
+- Links de internos (âncoras)
+- Links para e-mail e Telefone
+
+## Links Simples e com texto Personalizados
+
+Os links simples são criados usando a seguinte sintaxes:
+
+[texto do link] (URL)
+
+Exemplo 
+
+[Google](https://www.google.com)
+
+Os links com texto personalizado permitem que você exiba um texto diferente do URL. A Sintaxe é a mesma.
+
+[Texto personalizado](URL)
+
+[Pesquisa no Google](https://www.google.com)
