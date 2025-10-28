@@ -28,4 +28,20 @@ Listas aninhadas são listas dentro de outras listas. Elas podem ser usadas para
   - Alface
   - Tomate
 
-  ## Listas de tarefas (Checkbox)  
+  ## Listas Aninhadas Numericamente
+     Listas aninhadas também podem ser númeradas. Exemplo
+
+ 1. Tópico 1
+    1. Subtópico 1.1
+    2. subtópico 1.2
+ 2. Tópico 2
+    1. Subtópico 2.1
+    2. Subtópico 2.2
+
+## Lista de Tarefas (check box)
+
+Listas de tarefas são usadas para acompanhar o progresso das atividades. Elas podem ser criadas usando colchetes. Exemplo 
+
+- [x] Tarefa 1 concluída
+- [] Tarefa 2 pendente
+- [] Tarefa 3 pendente
